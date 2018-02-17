@@ -1,9 +1,11 @@
-import { Main ,Header} from "./_styled";
+import { Main, Header } from "./_styled";
+import txt from "./text";
 
 export default () => (
 	<div>
-		<Main>			
-			<Header>My Word</Header>
+		<Main>
+			<Header>{txt.header}</Header>
+			
 		</Main>
 	</div>
 );

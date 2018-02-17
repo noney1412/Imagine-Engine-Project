@@ -1,7 +1,9 @@
 import { Box } from "./_styled";
 
 export default () => (
-	<Box>
-		Sidebar
-	</Box>
+	<div>
+		<Box>
+			
+		</Box>
+	</div>
 );

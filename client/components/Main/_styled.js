@@ -17,9 +17,8 @@ export const Header = styled.h1`
 	padding-bottom: 9px;
 `;
 
-export const Card = styled.div`
+export const WordList = styled.li`
 	flex-basis: 50px;
-	${"" /* background-color: #ebebeb; */} display: flex;
 	flex-direction: row;
 	align-items: center;
 	margin-bottom: 4px;

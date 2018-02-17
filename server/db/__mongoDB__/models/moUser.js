@@ -7,7 +7,7 @@ export default mongoose.model(
 	Schema({
 		provider: {
 			type: String,
-			required: true
+			required: true 
 		},
 		vocab: {
 			type: [String]
