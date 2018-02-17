@@ -1,5 +1,5 @@
 {
-	"name": "its229-groupproject",
+	"name": "imagine-engine-project",
 	"version": "1.0.0",
 	"main": "index.js",
 	"repository": "https://github.com/noney1412/Imagine-Engine-Project.git",
@@ -73,7 +73,7 @@
 		"server:build": "NODE_ENV=server babel server -d build/dist",
 		"prebuild": "rm -rf build/*",
 		"build": "npm run next:build & npm run server:build",
-		"predeploy": "now rm diglawyer2_work",
+		"predeploy": "now rm imagine-engine-project",
 		"deploy": "now --public",
 		"server": "NODE_ENV=test babel-node server/index ",
 		"prestart": "NODE_ENV=production next build client",
