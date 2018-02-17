@@ -1,13 +1,11 @@
-var http = require('http');
+import express from "express";
 
-var server = http.createServer(function(request, response) {
+const app = express();
 
-    response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("Chanon Panpila");
-
+app.get("/", (req, res) => {
+	res.send("Hello World 5555");
 });
 
-var port = process.env.PORT || 1337;
-server.listen(port);
+const port = process.env.PORT || 1337;
 
-console.log("Server running at http://localhost:%d", port);
+app.listen(port);
