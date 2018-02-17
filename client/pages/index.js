@@ -1,12 +1,7 @@
-// import { graphql } from 'react-apollo'
-// import gql from 'graphql-tag'
-
-// // import withData from "../lib/withData"
-
-// // const query = gql`
-
-// // `
+import Layout from "../components/Layout";
 
 export default () => (
-    <div>Update Stack</div>
-)
+	<Layout>
+		<div>Layout</div>
+	</Layout>
+);

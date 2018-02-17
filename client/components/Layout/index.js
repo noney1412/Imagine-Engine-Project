@@ -1,5 +1,7 @@
-export default () => (
-    <div>
-        Layout
-    </div>
+import { Wrapper } from "./_styled";
+
+export default ({ children }) => (
+	<Wrapper>
+		{children}
+	</Wrapper>
 );

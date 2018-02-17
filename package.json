@@ -68,7 +68,7 @@
 		"debug": "node --debug-brk --inspect ./node_modules/.bin/jest -i",
 		"storybook": "start-storybook -p 6006",
 		"build-storybook": "build-storybook",
-		"dev": "NODE_ENV=server babel-node server",
+		"dev": "NODE_ENV=production next client",
 		"next:build": "NODE_ENV=development next build client",
 		"server:build": "NODE_ENV=server babel server -d build/dist",
 		"prebuild": "rm -rf build/*",
