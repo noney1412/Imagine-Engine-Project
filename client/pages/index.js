@@ -1,7 +1,8 @@
-import { Header, Layout } from "../components";
+import Layout from "../components/Layout";
+import Header from "../"
 
 export default () => (
 	<Layout>
-		<Header />
+		<div>5555</div>
 	</Layout>
 );
