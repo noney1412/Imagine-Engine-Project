@@ -1,8 +1,10 @@
 import Layout from "../components/Layout";
-import Header from "../"
+import SideBar from "../components/SideBar";
+import Main from "../components/Main";
 
 export default () => (
 	<Layout>
-		<div>5555</div>
+		<Main />
+		<SideBar />
 	</Layout>
 );

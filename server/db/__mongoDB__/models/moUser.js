@@ -9,8 +9,11 @@ export default mongoose.model(
 			type: String,
 			required: true
 		},
+		vocab: {
+			type: [String]
+		},
 		_id: {
-			type: String,
+			type: String
 		},
 		email: {
 			type: String,
@@ -18,25 +21,6 @@ export default mongoose.model(
 		},
 		displayName: { type: String, default: "" },
 		profile_image: {
-			type: String,
-			default: ""
-		},
-		name: {
-			firtname: { type: String, default: "" },
-			lastname: { type: String, default: "" }
-		},
-		emails: [
-			{
-				value: String,
-				type: String,
-				default: ""
-			}
-		],
-		isRegisted: {
-			type: Boolean,
-			default: false
-		},
-		description: {
 			type: String,
 			default: ""
 		},

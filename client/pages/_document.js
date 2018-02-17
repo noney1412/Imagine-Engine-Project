@@ -17,10 +17,14 @@ export default class MyDocument extends Document {
 				<Head>
 					<title>My page</title>
 					{this.props.styleTags}
-					<meta name="viewport" content="initial-scale=1.0, width=device-width" key="viewport" />
-					<link rel='stylesheet' type='text/css' href='/static/nprogress.css' />
+					<meta
+						name="viewport"
+						content="initial-scale=1.0, width=device-width"
+						key="viewport"
+					/>
+					<link rel="stylesheet" type="text/css" href="/static/nprogress.css" />
 				</Head>
-				<body>
+				<body style={{ margin: 0 }}>
 					<Main />
 					<NextScript />
 				</body>

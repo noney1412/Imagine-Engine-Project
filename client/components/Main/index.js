@@ -1,3 +1,9 @@
-import { Main } from "./_styled";
+import { Main ,Header} from "./_styled";
 
-export default () => <Main> Header </Main>;
+export default () => (
+	<div>
+		<Main>			
+			<Header>My Word</Header>
+		</Main>
+	</div>
+);
