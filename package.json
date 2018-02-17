@@ -1,22 +1,22 @@
 {
-	"name": "app-service-hello-world",
-	"description": "Simple Hello World Node.js sample for Azure App Service",
-	"version": "0.0.1",
-	"private": true,
-	"license": "MIT",
-	"author": "Microsoft",
-	"engines": {
-		"node": "8.9.0",
-		"npm": "5.0.3"
-	},
-	"scripts": {
-		"start": "babel-node index.js"
-	},
-	"dependencies": {
-		"express": "^4.16.2"
-	},
-	"devDependencies": {
-		"babel-cli": "^6.26.0",
-		"babel-preset-env": "^1.6.1"
-	}
+    "name": "app-service-hello-world",
+    "description": "Simple Hello World Node.js sample for Azure App Service",
+    "version": "0.0.1",
+    "private": true,
+    "license": "MIT",
+    "author": "Microsoft",
+    "engines": {
+        "node": "8.9.x",
+        "npm": "5.0.3"
+    },
+    "scripts": {
+        "start": "node ./node_modules/babel-cli/bin/babel-node.js index.js"
+    },
+    "dependencies": {
+        "express": "^4.16.2"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.6.1"
+    }
 }

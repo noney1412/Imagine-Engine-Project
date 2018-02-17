@@ -9,3 +9,5 @@ app.get("/", (req, res) => {
 const port = process.env.PORT || 1337;
 
 app.listen(port);
+
+console.log("http://localhost:1337")
